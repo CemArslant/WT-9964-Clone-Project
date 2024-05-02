@@ -35,7 +35,9 @@ h1 {
     font-size: calc(1.625rem + 4.5vw);
     font-weight: 300;
 }
-
+.modal-backdrop {
+    z-index: 50 !important;
+}
 header {   
     background-color: #f8f9fa;
     padding-top: 9rem;
